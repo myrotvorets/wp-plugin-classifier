@@ -30,8 +30,5 @@ jobs:
 
       - name: Review dependencies
         uses: actions/dependency-review-action@5bbc3ba658137598168acb2ab73b21c432dd411b # v4.2.5
-<<<<<<< Updated upstream
-=======
         with:
           comment-summary-in-pr: true
->>>>>>> Stashed changes

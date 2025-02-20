@@ -20,9 +20,11 @@
     "packageRules": [
         {
             "matchManagers": [
-                "regex"
+                "custom.regex"
             ],
-            "matchFileNames": [".devcontainer/**/devcontainer.json"],
+            "matchFileNames": [
+                ".devcontainer/**/devcontainer.json"
+            ],
             "automerge": true
         }
     ]

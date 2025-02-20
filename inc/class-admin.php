@@ -94,7 +94,7 @@ final class Admin {
 
 		$lines = explode( "\n", $value );
 		$lines = array_map(
-			fn ( $s ) => trim( preg_replace( '/\s+/u', ' ', $s ) ),
+			fn ( $s ) => trim( (string) preg_replace( '/\s+/u', ' ', $s ) ),
 			$lines
 		);
 
